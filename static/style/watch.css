@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    text-align: center;
+
+    background: #00db5b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header .title {
+    color: #fff;
+}
+
+main {
+    text-align: center;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.sheet_green {
+    text-align: center;
+    
+    background: #c2ff8f;
+
+    width: 300px;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.sheet_green .hapi {
+    font-size: 15px;
+
+    margin: 0 auto;
+    margin-bottom: 0;
+    
+    width: 50px;
+    line-height: 50px;
+
+    border-radius: 50%;
+    
+    background: #ffdd1c;
+}
+
+.sheet_green .title {
+    display: block;
+
+    margin: 0 auto;
+
+    background: #319b00;
+
+    width: 200px;
+    line-height: 50px;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sheet_green .content {
+    display: block;
+
+    margin: 0 auto;
+    padding-top: 5px;
+
+    width: 250px;
+
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+    line-height: 30px;
+
+    font-weight: bold;
+}
+
+.sheet_green .name {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.sheet_red {        
+    text-align: center;
+    
+    background: #ffb38f;
+
+    width: 300px;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.sheet_red .hapi {
+    font-size: 15px;
+
+    margin: 0 auto;
+    margin-bottom: 0;
+    
+    width: 50px;
+    line-height: 50px;
+
+    border-radius: 50%;
+    
+    background: #ffdd1c;
+}
+
+.sheet_red .title {
+    display: block;
+
+    margin: 0 auto;
+
+    background: #9b1f00;
+
+    width: 200px;
+    line-height: 50px;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sheet_red .content {
+    display: block;
+
+    margin: 0 auto;
+    padding-top: 5px;
+
+    width: 250px;
+
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+    line-height: 30px;
+
+    font-weight: bold;
+}
+
+.sheet_red .name {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+.return {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: #008ada;
+
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    
+    width: 60px;
+    line-height: 40px;
+    margin: 70px auto 48px;
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 5px gray;
+    
+    transition: opacity 0.3s;
+}
+.return:hover {
+    opacity: 0.7;
+}
+
+.wood {
+    background: #b45700;
+
+    line-height: 300px;
+    width: 150px;
+
+    margin: 0 auto;
+}
+
+@media (min-width: 900px)
+{
+    .work {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

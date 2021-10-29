@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+
+    /* background: #f2fff8; */
+}
+
+header {
+    text-align: center;
+
+    background: #00db5b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+
+    /* margin-top: 100px;
+    margin-bottom: 50px; */
+    
+    font: 200px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+main {
+    text-align: center;
+}
+
+.text {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.checkboxs {
+    display: block;
+
+    text-align: left;
+
+    margin-left: 30%;
+}
+.checkbox {
+    margin-top: 20px;
+}
+label {
+    font-size: 20px;
+}
+
+.message {
+    margin-top: 30px;
+
+    resize: none;
+    width: 250px;
+    height: 135px;
+
+    border-radius: 10px;
+    border-color: #06b8ff;
+    border-width: 5px;
+
+    font-size: 20px;
+}
+
+.send {
+    margin-top: 30px;
+
+    border-color: #06b8ff;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 50px;
+
+    background: #00ccff;
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+
+    box-shadow: 2px 2px 5px gray;
+
+    transition: opacity 0.3s;
+}
+.send:hover {
+    opacity: 0.7;
+
+    cursor: pointer;
+}
+
+
+.return {
+    display: block;
+
+    text-decoration: none;
+
+    background: #008ada;
+
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    
+    width: 60px;
+    line-height: 40px;
+    margin: 70px auto 48px;
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 5px gray;
+    
+    transition: opacity 0.3s;
+}
+.return:hover {
+    opacity: 0.7;
+}
+
+footer {
+    margin-bottom: 200px;
+}
+
+@media (min-width: 900px)
+{
+    .message {
+        width: 350px;
+    }
+
+    .checkboxs {
+        margin-left: 40%;
+    }
+}
