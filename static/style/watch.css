@@ -21,10 +21,6 @@ main {
 .work {
     margin: 0 auto;
 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-
     width: 1800px;
 }
 
@@ -202,8 +198,6 @@ footer {
 {
     .work {
         margin: 0 auto;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
 
         transform: scale(0.5);
         width: 100%;
