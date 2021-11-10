@@ -194,6 +194,14 @@ footer {
     margin: 0 auto;
 }
 
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 1500px;
+}
+
 @media (min-width: 900px)
 {
     .work {
