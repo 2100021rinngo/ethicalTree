@@ -201,6 +201,10 @@ footer {
 
     width: 1500px;
 }
+.space {
+    margin-left: 10px;
+    text-align: center;
+}
 
 @media (min-width: 900px)
 {
