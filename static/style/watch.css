@@ -194,20 +194,17 @@ footer {
     margin: 0 auto;
 }
 
-.container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    width: 1500px;
-}
-.space {
-    margin-left: 10px;
-    text-align: center;
-}
 
 @media (min-width: 900px)
 {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+        width: 1500px;
+    }
+
     .work {
         margin: 0 auto;
 
