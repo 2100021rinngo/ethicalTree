@@ -6,16 +6,17 @@
         <title> エシカルツリー | 見る</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="static/style/watch.css">
+        <script src="static/js/watch.js"></script>
     </head>
 
-    <body>
+    <body id="body" onresize="reizeWindow()">
         <header>
             <h1 class="title"> みんなの宣言を見る！ </h1>
         </header>
 
-        <main>
-            <div class="work">
-                <div class="container">
+        <main id="main">
+            <div class="work" id="work">
+                <div class="container" id="contaner">
                     <div class="sheet_green">
                         <img src="static/img/hapimedal.bmp" width="70">
                         <div class="title"> エシカル宣言！ </div>

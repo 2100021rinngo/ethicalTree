@@ -9,6 +9,8 @@ header {
     background: #00db5b;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    width: 1000px;
 }
 header .title {
     color: #fff;
@@ -20,6 +22,8 @@ main {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+
+    width: 1000px;
 }
 
 .work {
@@ -207,18 +211,10 @@ footer {
     margin: 0 auto;
 }
 
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
-@media (min-width: 900px)
-{
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    
-        width: 1500px;
-    }
-    
-    .main {
-        transform: scale(0.25);
-    }
+    width: 1500px;
 }
