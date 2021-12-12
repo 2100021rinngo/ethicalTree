@@ -4,13 +4,15 @@ body {
 
 
 header {
+    display: block;
+
     text-align: center;
     
     background: #00db5b;
     padding-top: 50px;
     padding-bottom: 50px;
 
-    width: 1000px;
+    width: 100vw;
 }
 header .title {
     color: #fff;
@@ -21,7 +23,7 @@ main {
     
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 
     width: 1000px;
 }
@@ -34,6 +36,8 @@ main {
     text-align: left;
 
     transform: scale(0.5);
+
+    width: 1000px;
 }
 /* 二つ目以降のツリー */
 #afterSecondWork {
@@ -193,7 +197,7 @@ footer {
     line-height: 40px;
     margin: 70px auto 48px;
     border-radius: 10px;
-    
+        
     box-shadow: 2px 2px 5px gray;
     
     transition: opacity 0.3s;
