@@ -39,11 +39,11 @@ main {
 
     width: 1000px;
 }
-/* 二つ目以降のツリー */
+/* 二つ目以降のツリー
 #afterSecondWork {
     position: relative;
     top: -500px;
-}
+} */
 
 .sheet_green {
     text-align: center;
