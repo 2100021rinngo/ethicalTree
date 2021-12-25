@@ -21,7 +21,7 @@ async function reizeWindow()
     // rate = (rate == 1) ? 1 : rate;
     // work.style.transform = "scale(" + rate + "," + rate + ")";
     main.style.width = `${window.innerWidth}px`;
-    header.style.width = `${window.innerWidth}px`;
+    // header.style.width = `${window.innerWidth}px`;
 
     console.log(main.style.width);
 }
